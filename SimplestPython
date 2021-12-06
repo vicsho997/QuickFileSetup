@@ -1,0 +1,12 @@
+#you can run script with "-c"
+python3.10 -c ""
+
+#lets create the simplest python program
+touch simplest.py
+cat simplest.py
+
+#lets run this script
+python3.10 simplest.py
+
+#We can also run it as a module
+python3.10 -m simplest
