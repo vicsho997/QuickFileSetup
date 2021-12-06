@@ -1,0 +1,23 @@
+#reading file
+
+file = open(r"C:\Users\Dell\Desktop\example.txt")
+print(file.read())
+
+#Write into file
+
+file = open(r"C:\Users\Dell\Desktop\example.txt","w")
+file.write("This is how you can write into file")
+file.close()
+
+file = open(r"C:\Users\Dell\Desktop\example.txt","r")
+print(file.read())
+
+#Delete File
+
+import os
+
+if os.path.exists(r"C:\Users\Dell\Desktop\example.txt") :
+  os.removen(r"C:\Users\Dell\Desktop\example.txt")
+  print("file deleted...")
+else:
+  print("No file FOund...")
